@@ -125,12 +125,4 @@ This project is open-source and licensed under the [MIT License](LICENSE).
 
 3. Add a `LICENSE` file (MIT is good — I can generate one for you too)
 
----
-
-Would you like:
-- A custom dark/light icon?
-- Help writing the GitHub `release` description?
-- CI to auto-build `.exe` on push?
-
-Let me know — you're doing fantastic, Samrat! 🔥
 
