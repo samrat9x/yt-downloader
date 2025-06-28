@@ -56,6 +56,12 @@ pyinstaller --onefile --windowed --add-data "ffmpeg.exe;." main.py
 
 ### 6. You will find `main.exe` in the `dist` folder.
 
+```
+yt-downloader/
+├── dist/
+    └── main.exe
+```
+
 ---
 
 ## 🧱 Folder Structure
