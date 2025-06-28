@@ -112,18 +112,6 @@ This project is open-source and licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙋‍♂️ Author
-
-**Samrat**
-📺 YouTube: [Samrat360](https://youtube.com/@samrat360)
-📘 Facebook : [Samrat](https://facebook.com/samrat9x)
-
----
-
-````
-
----
-
 ## 📝 What You Need to Do:
 
 1. Replace:
@@ -138,4 +126,11 @@ This project is open-source and licensed under the [MIT License](LICENSE).
 3. Add a `LICENSE` file (MIT is good — I can generate one for you too)
 
 ---
-````
+
+Would you like:
+- A custom dark/light icon?
+- Help writing the GitHub `release` description?
+- CI to auto-build `.exe` on push?
+
+Let me know — you're doing fantastic, Samrat! 🔥
+
