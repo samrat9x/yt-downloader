@@ -46,7 +46,7 @@ pip install pyinstaller
 
 ### 4. Download `ffmpeg.exe` and place it to the root folder
 
-> Download from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+> Download from: [https://www.gyan.dev/ffmpeg/builds/](https://ffmpeg.org/download.html)
 
 ### 5. Open CMD in the root folder and run the following command:
 
