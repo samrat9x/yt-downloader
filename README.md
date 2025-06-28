@@ -29,7 +29,7 @@ A simple **desktop app** for downloading YouTube videos and playlists — built 
 ### 1. Clone the repo:
 
 ```bash
-git clone https://github.com/samrat9x/yt-downloader.git
+git clone https://github.com/samrat9x/yt-downloader
 ```
 
 ### 2. Install `yt-dlp`:
