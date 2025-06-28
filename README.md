@@ -1,7 +1,6 @@
 # 🎬 YouTube Downloader (GUI)
 
-A simple and powerful **desktop app** for downloading YouTube videos and playlists — built with **Python**, **Tkinter**, and **yt-dlp**.  
-No coding needed, just paste the link and download! 🔽
+A simple **desktop app** for downloading YouTube videos and playlists — built with **Python**, **Tkinter**, **yt-dlp** and **ffmpeg**.
 
 ---
 
@@ -11,31 +10,11 @@ No coding needed, just paste the link and download! 🔽
 - ✅ Choose quality: `Best`, `1080p`, `720p`, or `Audio Only`
 - ✅ Save videos to your selected folder
 - ✅ Shows real-time **download progress**
-- ✅ Outputs final video in `.mp4` (no `.webm`)
+- ✅ Outputs final video in `.mp4`
 - ✅ Comes with `ffmpeg` built-in — **no extra install needed**
 - ✅ No terminal popups — clean GUI only
 
 ---
-
-## 📸 Screenshot
-
-> _(Add a screenshot named `screenshot.png` if you want visual preview)_
-
----
-
-## 📦 Download the App
-
-🖱️ [Click here to download the latest release](https://github.com/your-username/your-repo-name/releases)
-
-- Unzip the file
-- Run `main.exe`
-- Paste a YouTube URL and hit **Download**
-
-⚠️ No need to install Python or ffmpeg. Just run and enjoy!
-
----
-
-## 🛠️ Run from Source (For Developers)
 
 ### ✅ Requirements
 
@@ -43,32 +22,31 @@ No coding needed, just paste the link and download! 🔽
 - `yt-dlp` (Python wrapper for YouTube downloads)
 - `ffmpeg.exe` in the project directory
 
-### 🔧 Setup
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-pip install -r requirements.txt
-python main.py
-````
-
 ---
 
 ## 🔨 Build the `.exe` Yourself
 
-### 1. Place `ffmpeg.exe` in the root folder
-
-> Download from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
-
-### 2. Run the `build.bat` file (included)
+### 1. Clone the repo:
 
 ```bash
-build.bat
+git clone https://github.com/samrat9x/yt-downloader.git
 ```
 
-### 3. Done! `main.exe` will be inside the `dist/` folder.
+### 2. Install `yt-dlp`:
 
-> ✅ `ffmpeg` is bundled into the `.exe` using PyInstaller’s `--add-data`.
+```bash
+pip install yt-dlp
+```
+
+### 3. Install `pyinstaller`:
+
+```bash
+pip install pyinstaller
+```
+
+### 4. Place `ffmpeg.exe` in the root folder
+
+> Download from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
 
 ---
 
@@ -98,9 +76,9 @@ Pull requests welcome! 🙌
 
 Want to add features like:
 
-* Thumbnail preview
-* Multi-download queue
-* Dark mode UI
+- Thumbnail preview
+- Multi-download queue
+- Dark mode UI
 
 Let’s build it together! 🛠️
 
@@ -117,6 +95,7 @@ This project is open-source and licensed under the [MIT License](LICENSE).
 1. Replace:
    - `your-username/your-repo-name` with your actual GitHub link
 2. Add:
+
    - `screenshot.png` (optional)
    - `requirements.txt` with:
      ```txt
@@ -124,5 +103,3 @@ This project is open-source and licensed under the [MIT License](LICENSE).
      ```
 
 3. Add a `LICENSE` file (MIT is good — I can generate one for you too)
-
-
