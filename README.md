@@ -44,21 +44,27 @@ pip install yt-dlp
 pip install pyinstaller
 ```
 
-### 4. Place `ffmpeg.exe` in the root folder
+### 4. Download `ffmpeg.exe` and place it to the root folder
 
 > Download from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+
+### 5. Open CMD in the root folder and run the following command:
+
+```bash
+pyinstaller --onefile --windowed --add-data "ffmpeg.exe;." main.py
+```
+
+### 6. You will find `main.exe` in the `dist` folder.
 
 ---
 
 ## 🧱 Folder Structure
 
 ```
-youtube-downloader-gui/
+yt-downloader/
 ├── main.py
 ├── ffmpeg.exe
-├── build.bat
 ├── README.md
-├── requirements.txt
 └── dist/
     └── main.exe
 ```
@@ -81,25 +87,3 @@ Want to add features like:
 - Dark mode UI
 
 Let’s build it together! 🛠️
-
----
-
-## 📜 License
-
-This project is open-source and licensed under the [MIT License](LICENSE).
-
----
-
-## 📝 What You Need to Do:
-
-1. Replace:
-   - `your-username/your-repo-name` with your actual GitHub link
-2. Add:
-
-   - `screenshot.png` (optional)
-   - `requirements.txt` with:
-     ```txt
-     yt-dlp
-     ```
-
-3. Add a `LICENSE` file (MIT is good — I can generate one for you too)
